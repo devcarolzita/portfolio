@@ -1,4 +1,3 @@
-import React from 'react'
 import BorderButton from '../BorderButton'
 import Project from './Project'
 

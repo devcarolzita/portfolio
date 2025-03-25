@@ -1,6 +1,6 @@
 import BorderButton from "./BorderButton";
-import ScrollReveal from "./ScrollReveal/ScrollReveal";
-import DecryptedText from "./DecryptedText/DecryptedText";
+// import ScrollReveal from "./ScrollReveal/ScrollReveal";
+// import DecryptedText from "./DecryptedText/DecryptedText";
 import Me from "../assets/image.png";
 const About = () => {
   return (
