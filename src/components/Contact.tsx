@@ -2,7 +2,7 @@ import BorderButton from "./BorderButton";
 import Title from "./Title";
 const Contact = () => {
   return (
-    <div className="flex w-full h-auto items-center gap-10 justify-between mt-20">
+    <section id="contact" className="flex flex-col lg:flex-row w-full h-auto items-center gap-10 justify-between mt-20">
       <div className="w-full md:max-w-md h-auto flex flex-col gap-5 items-baseline">
         <BorderButton text="Contato" />
         <Title title="Vamos trabalhar" subTitle="em conjunto!" />
@@ -123,7 +123,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <main className="flex flex-col p-20 items-center">
+      <main className="flex flex-col p-10 lg:p-20 items-center">
         <Hero />
         <MetaBalls
           color="#560ae1"

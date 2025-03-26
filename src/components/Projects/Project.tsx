@@ -1,5 +1,6 @@
+import { typeProject } from "../../types/types";
 
-const Project = () => {
+const Project = ({projectName, description, imgSource, tags, demo, github}: typeProject) => {
   return (
     <div className="rounded-lg border text-card-foreground shadow-sm bg-zinc-900 border-zinc-800 overflow-hidden max-w-sm">
       <div className="aspect-video relative">
@@ -10,19 +11,22 @@ const Project = () => {
         />
       </div>
       <div className="p-6 space-y-4">
-        <h3 className="text-xl font-bold"> Tela de erro</h3>
+        <h3 className="text-xl font-bold"> {projectName} </h3>
         <p className="text-zinc-400">
-          A modern web application built with React, Next.js, and Tailwind CSS.
+          {description}      
         </p>
         <div className="flex flex-wrap gap-2">
+          {tags.map((element:string) => <span className="inline-block rounded-full bg-purple-800/20 text-purple-500 px-3 py-1 text-xs text-primary">
+            {element}
+          </span>)}
           <span className="inline-block rounded-full bg-purple-800/20 text-purple-500 px-3 py-1 text-xs text-primary">
-            Design
+            {/* Design
           </span>
           <span className="inline-block rounded-full bg-purple-800/20 text-purple-500 px-3 py-1 text-xs text-primary">
            React
           </span>
           <span className="inline-block rounded-full bg-purple-800/20 text-purple-500 px-3 py-1 text-xs text-primary">
-            Tailwind
+            Tailwind */}
           </span>
         </div>
         <div className="flex gap-4 pt-2">

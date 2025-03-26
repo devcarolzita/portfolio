@@ -2,7 +2,7 @@ import BorderButton from './BorderButton';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center text-center space-y-4 mb-30 mt-20'>
+    <section id="hero" className='flex flex-col items-center text-center space-y-4 mb-30 mt-20 gap-10 lg:gap-0'>
    <BorderButton text='Disponível para trabalhar' />
     <h1 className='text-4xl md:text-6xl font-bold tracking-tight'>Desenvolvedora Front-end <br /><span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500'>
     Criando experiências digitais
@@ -15,7 +15,7 @@ const Hero = () => {
    </div>
 
  
-    </div>
+    </section>
   )
 }
 
