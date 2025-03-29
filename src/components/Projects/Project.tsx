@@ -1,12 +1,13 @@
 import { typeProject } from "../../types/types";
 
-const Project = ({projectName, description, tags}: typeProject) => {
+const Project = ({projectName, description, tags, imgSource}: typeProject) => {
+
   return (
     <div className="rounded-lg border text-card-foreground shadow-sm bg-zinc-900 border-zinc-800 overflow-hidden max-w-sm">
       <div className="aspect-video relative">
         <img
           className="object-cover w-full h-full"
-          src="./projects/galeria.png"
+          src={imgSource}
           alt="Projeto"
         />
       </div>
@@ -19,15 +20,8 @@ const Project = ({projectName, description, tags}: typeProject) => {
           {tags.map((element:string) => <span className="inline-block rounded-full bg-purple-800/20 text-purple-500 px-3 py-1 text-xs text-primary">
             {element}
           </span>)}
-          <span className="inline-block rounded-full bg-purple-800/20 text-purple-500 px-3 py-1 text-xs text-primary">
-            {/* Design
-          </span>
-          <span className="inline-block rounded-full bg-purple-800/20 text-purple-500 px-3 py-1 text-xs text-primary">
-           React
-          </span>
-          <span className="inline-block rounded-full bg-purple-800/20 text-purple-500 px-3 py-1 text-xs text-primary">
-            Tailwind */}
-          </span>
+           
+          
         </div>
         <div className="flex gap-4 pt-2">
           <button className="flex items-center justify-center  border border-gray-800 bg-black rounded-md px-3 gap-1 cursor-pointer transition duration-500 ease-in-out hover:scale-110'">
