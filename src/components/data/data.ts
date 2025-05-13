@@ -34,7 +34,7 @@ export const data = [
 {
   projectName: 'Card de imobiliária',
   imgSource: './projects/card.png',
-  description: 'aaaa',
+  description: 'Realizei o design pelo o figma e o código com React e Tailwind',
   tags: ['FIGMA', 'REACT', 'TAILWIND'],
   demo: 'https://rococo-longma-cd626d.netlify.app/',
   github: 'https://github.com/devcarolzita/mp-card-moderno-de-imobiliaria'
