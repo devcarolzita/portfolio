@@ -20,10 +20,7 @@ const About = () => {
           </div>
           <Title title="Apaixonada por resolver"  subTitle="problemas"/>
           <p className="text-zinc-400 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-            consequuntur perspiciatis nemo, delectus dolore mollitia? Veritatis
-            tenetur quo dolor hic rem dolores quasi, numquam, minus iste ipsam
-            aliquam voluptatibus perspiciatis!
+          Gosto de transformar desafios em soluções criativas e funcionais. Tenho paixão por tecnologia, ensino e design de experiências que fazem diferença real na vida das pessoas. Seja desenvolvendo interfaces, automatizando processos ou ajudando alguém a dar os primeiros passos na programação, estou sempre em busca de impacto prático e positivo.
           </p>
         </div>
       </div>

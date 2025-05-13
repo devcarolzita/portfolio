@@ -4,7 +4,7 @@ import Project from './Project'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col items-center gap-5'>
+    <div className='flex flex-col items-center gap-5' id='projects'>
       <div>
       <BorderButton  text='Projetos'/>
       </div>

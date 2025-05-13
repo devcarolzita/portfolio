@@ -1,6 +1,6 @@
 import { typeProject } from "../../types/types";
 
-const Project = ({projectName, description, tags, imgSource}: typeProject) => {
+const Project = ({projectName, description, tags, imgSource, demo, github}: typeProject) => {
 
   return (
     <div className="rounded-lg border text-card-foreground shadow-sm bg-zinc-900 border-zinc-800 overflow-hidden max-w-sm">
@@ -24,7 +24,7 @@ const Project = ({projectName, description, tags, imgSource}: typeProject) => {
           
         </div>
         <div className="flex gap-4 pt-2">
-          <button className="flex items-center justify-center  border border-gray-800 bg-black rounded-md px-3 gap-1 cursor-pointer transition duration-500 ease-in-out hover:scale-110'">
+          <a className="flex items-center justify-center  border border-gray-800 bg-black rounded-md px-3 gap-1 cursor-pointer transition duration-500 ease-in-out hover:scale-110'" href={github} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -41,8 +41,8 @@ const Project = ({projectName, description, tags, imgSource}: typeProject) => {
               <path d="M9 18c-4.51 2-5-2-7-2"></path>
             </svg>
             Code
-          </button>
-          <button className="flex items-center justify-center bg-purple-500 text-primary-foreground hover:bg-purple-300 h-9 rounded-md px-3 gap-1 transition duration-500 ease-in-out hover:scale-110">
+          </a>
+          <a className="flex items-center justify-center bg-purple-500 text-primary-foreground hover:bg-purple-300 h-9 rounded-md px-3 gap-1 transition duration-500 ease-in-out hover:scale-110" href={demo} target="_blank">
             Live Demo
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const Project = ({projectName, description, tags, imgSource}: typeProject) => {
               <path d="M5 12h14"></path>
               <path d="m12 5 7 7-7 7"></path>
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </div>

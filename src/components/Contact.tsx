@@ -15,7 +15,7 @@ const Contact = () => {
   };
   return (
     <section id="contact" className="flex flex-col lg:flex-row w-full h-auto items-center gap-10 justify-between mt-20">
-      <div className="w-full md:max-w-md h-auto flex flex-col gap-5 items-baseline">
+      <div className="w-full max-w-md h-auto flex flex-col gap-5 items-baseline">
         <BorderButton text="Contato" />
         <Title title="Vamos trabalhar" subTitle="em conjunto!" />
         <p>
@@ -95,9 +95,9 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-full md:max-w-2xl h-auto">
+      <div className="w-full max-w-lg  h-auto">
         <div className="rounded-3xl border border-zinc-800 bg-zinc-950 p-8">
-          <form className="space-y-6" onSubmit={handleSubmit}>
+          <form className="space-y-6 max-w-lg" onSubmit={handleSubmit}>
             <div className="space-y-2">
               <label
                 htmlFor="name"
@@ -109,6 +109,7 @@ const Contact = () => {
                 id="name"
                 className="flex h-10 w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-primary"
                 placeholder="Seu nome"
+                required
               />
             </div>
             <div className="space-y-2">
@@ -123,6 +124,7 @@ const Contact = () => {
                 type="email"
                 className="flex h-10 w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-primary"
                 placeholder="Seu email"
+                required
               />
             </div>
             <div className="space-y-2">
@@ -136,9 +138,10 @@ const Contact = () => {
                 id="message"
                 className="flex min-h-[120px] w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-primary"
                 placeholder="Diga!"
+                required
               />
             </div>
-            <button className="w-full">Enviar mensagem</button>
+            <button className="w-full rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 p-2">Enviar mensagem</button>
           </form>
         </div>
       </div>
