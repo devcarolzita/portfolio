@@ -25,7 +25,7 @@ export const data = [
 },
 {
   projectName: 'Landing Page imobiliária',
-  imgSource: './projects/lp.png',
+  imgSource: './projects/imobiliaria.png',
   description: 'Realizamos a criação do design, do código e da edição do vídeo da resolução',
   tags: ['FIGMA', 'HTML', 'DAVINCI'],
   demo: 'https://deft-frangollo-e2e2ff.netlify.app/',
