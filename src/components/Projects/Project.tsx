@@ -43,7 +43,7 @@ const Project = ({projectName, description, tags, imgSource, demo, github}: type
             Code
           </a>
           <a className="flex items-center justify-center bg-purple-500 text-primary-foreground hover:bg-purple-300 h-9 rounded-md px-3 gap-1 transition duration-500 ease-in-out hover:scale-110" href={demo} target="_blank">
-            Live Demo
+            Veja mais
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
