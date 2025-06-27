@@ -10,7 +10,7 @@ const Projects = () => {
       </div>
       <h2 className='text-3xl font-bold tracking-tight sm:text-4xl'>Projetos em destaques 
       </h2>
-      <p className='text-zinc-400 leading-relaxed"'>Confira alguns dos meus projetos e colaborações recentes.
+      <p className='text-zinc-400 leading-relaxed"'>Confira alguns dos nossos projetos e colaborações recentes.
       </p>
       <div className='flex gap-10 flex-wrap'>
         {data.map(({projectName, description, tags, imgSource, demo, github}) => <Project projectName={projectName} description={description}  tags={tags} imgSource={imgSource} demo={demo} github={github} />)}

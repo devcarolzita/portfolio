@@ -25,7 +25,7 @@ const Contact = () => {
         </p>
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <a href="mailto:contatocarolinebs@gmail.com">
+            <a href="mailto:kroltec@gmail.com">
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Contact = () => {
               </svg>
             </div>
             </a>
-            <a href="mailto:contatocarolinebs@gmail.com"> <span>contatocarolinebs@gmail.com</span></a>
+            <a href="mailto:kroltec@gmail.com"> <span>kroltec@gmail.com</span></a>
            
           </div>
           <div className="flex items-center gap-3">

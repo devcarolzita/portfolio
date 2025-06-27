@@ -16,12 +16,11 @@ const About = () => {
         </div>
         <div className="max-w-md flex flex-col gap-4">
           <div className="max-w-30">
-            <BorderButton text="Sobre mim" />
+            <BorderButton text="Sobre nós" />
           </div>
-          <Title title="Apaixonada por resolver"  subTitle="problemas"/>
+          <Title title="Apaixonados por resolver"  subTitle="problemas"/>
           <p className="text-zinc-400 leading-relaxed">
-          Gosto de transformar desafios em soluções criativas e funcionais. Tenho paixão por tecnologia, ensino e design de experiências que fazem diferença real na vida das pessoas. Seja desenvolvendo interfaces, automatizando processos ou ajudando alguém a dar os primeiros passos na programação, estou sempre em busca de impacto prático e positivo.
-          </p>
+          Na Kroltec, unimos tecnologia, design e dados para construir presenças digitais fortes. Seja gerenciando redes sociais, criando campanhas de tráfego pago ou oferecendo uma gestão 360º do digital, nosso foco é gerar impacto prático e positivo para negócios que querem crescer de verdade.          </p>
         </div>
       </div>
     </section>

@@ -8,33 +8,33 @@ export const data = [
     github: 'http://criatipica.com.br/'
   },
   {
-  projectName: 'Galeria de imagens',
-  imgSource: './projects/galeria.png',
-  description: 'Uma galeria de fotos do zero com javascript',
-  tags: ['HTML', 'CSS', 'JAVASCRIPT'],
-  demo: 'https://galeria-de-imagens.netlify.app/fotos',
-  github: 'https://github.com/devcarolzita/mp-galeria-de-imagens'
+  projectName: 'Social Media para consultoria',
+  imgSource: './projects/criatipicaSocial.png',
+  description: 'Gerenciamos as redes sociais da consultoria Criatipica com criatividade e constância para fortalecer sua marca, engajar seu público',
+  tags: ['PHOTOSHOP', 'BUSINESS', 'FIGMA'],
+  demo: 'https://www.instagram.com/consultoriacriatipica/',
+  github: 'https://www.instagram.com/consultoriacriatipica/'
 }, 
 {
-  projectName: 'Testes com playwright',
-  imgSource: './projects/testes.png',
-  description: 'Um projeto criado para treinar testes com o playwright',
+  projectName: 'Criamos um site para uma locadora de Porto Seguro',
+  imgSource: './projects/horizonte.png',
+  description: 'Além de desenvolvermos toda a estratégia digital — do tráfego pago às redes sociais — também entregamos um site completo para a marca',
   tags: ['TESTES', 'PLAYWRIGHT', 'HTML'],
-  demo: 'https://codante.io/mini-projetos/testes-com-playwright/resolucao',
-  github: 'https://github.com/devcarolzita/mp-testes-com-playwright'
+  demo: 'https://horizontelocadora.com.br/',
+  github: 'https://horizontelocadora.com.br/'
 },
 {
   projectName: 'Landing Page imobiliária',
   imgSource: './projects/lp.png',
-  description: 'Fiz a criação do design, do código e da edição do vídeo da resolução',
+  description: 'Realizamos a criação do design, do código e da edição do vídeo da resolução',
   tags: ['FIGMA', 'HTML', 'DAVINCI'],
   demo: 'https://deft-frangollo-e2e2ff.netlify.app/',
   github: 'https://github.com/devcarolzita/mp-banner-imobiliaria'
 },
 {
-  projectName: 'Card de imobiliária',
-  imgSource: './projects/card.png',
-  description: 'Realizei o design pelo o figma e o código com React e Tailwind',
+  projectName: 'Social Media para Locadora',
+  imgSource: './projects/locadoraHorizonte.png',
+  description: 'Do tráfego pago ao conteúdo nas redes, criamos a estratégia completa',
   tags: ['FIGMA', 'REACT', 'TAILWIND'],
   demo: 'https://rococo-longma-cd626d.netlify.app/',
   github: 'https://github.com/devcarolzita/mp-card-moderno-de-imobiliaria'
@@ -42,9 +42,9 @@ export const data = [
 {
   projectName: 'Checkout de ecommerce',
   imgSource: './projects/checkout.png',
-  description: 'Realizei a criação do design como do código também, utilizei React Router e Tailwind ',
+  description: 'Realizamos a criação do design como do código também, utilizamos as tecnologias de React Router e Tailwind ',
   tags: ['FIGMA', 'REACT', 'TAILWIND'],
-  demo: 'd',
-  github: 'ddd'
+  demo: 'https://mp-pagina-de-checkout-pink.vercel.app/',
+  github: 'https://github.com/devcarolzita/mp-pagina-de-checkout'
 },
 ]
