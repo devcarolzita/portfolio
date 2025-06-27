@@ -2,7 +2,7 @@ export const data = [
   {
     projectName: 'Landing page para consultoria',
     imgSource: './projects/criatipica.png',
-    description: 'Criei uma LP do zero, com animações e responsividade',
+    description: 'Desenvolvemos todo e design e o site da Criatípica com foco em transmitir a essência da marca e gerar conexão com o público desde o primeiro clique',
     tags: ['WORDPRESS', 'FIGMA', 'CSS'],
     demo: 'https://github.com/devcarolzita',
     github: 'http://criatipica.com.br/'
