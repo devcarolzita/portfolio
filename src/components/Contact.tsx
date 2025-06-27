@@ -19,9 +19,9 @@ const Contact = () => {
         <BorderButton text="Contato" />
         <Title title="Vamos trabalhar" subTitle="em conjunto!" />
         <p>
-          No momento, estou disponível para trabalho freelance e posições de
-          tempo integral. Se você estiver interessado em trabalhar comigo ou
-          tiver alguma dúvida, sinta-se à vontade para entrar em contato.
+        E se você busca resultados reais no digital, podemos te ajudar através da Kroltec — nossa agência especializada em tráfego pago, social media e criação de sites.
+        Cuidamos da presença online da sua marca de forma completa, estratégica e com foco em conversão.
+        Se quiser bater um papo ou tiver alguma dúvida, é só nos chamar!
         </p>
         <div className="space-y-4">
           <div className="flex items-center gap-3">

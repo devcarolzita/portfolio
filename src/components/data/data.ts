@@ -4,7 +4,7 @@ export const data = [
     imgSource: './projects/criatipica.png',
     description: 'Desenvolvemos todo e design e o site da Criatípica com foco em transmitir a essência da marca e gerar conexão com o público desde o primeiro clique',
     tags: ['WORDPRESS', 'FIGMA', 'CSS'],
-    demo: 'https://github.com/devcarolzita',
+    demo: 'http://criatipica.com.br/',
     github: 'http://criatipica.com.br/'
   },
   {
@@ -19,7 +19,7 @@ export const data = [
   projectName: 'Criamos um site para uma locadora de Porto Seguro',
   imgSource: './projects/horizonte.png',
   description: 'Além de desenvolvermos toda a estratégia digital — do tráfego pago às redes sociais — também entregamos um site completo para a marca',
-  tags: ['TESTES', 'PLAYWRIGHT', 'HTML'],
+  tags: ['TRÁFEGO PAGO', 'FIGMA', 'WORDPRESS'],
   demo: 'https://horizontelocadora.com.br/',
   github: 'https://horizontelocadora.com.br/'
 },
@@ -35,9 +35,9 @@ export const data = [
   projectName: 'Social Media para Locadora',
   imgSource: './projects/locadoraHorizonte.png',
   description: 'Do tráfego pago ao conteúdo nas redes, criamos a estratégia completa',
-  tags: ['FIGMA', 'REACT', 'TAILWIND'],
-  demo: 'https://rococo-longma-cd626d.netlify.app/',
-  github: 'https://github.com/devcarolzita/mp-card-moderno-de-imobiliaria'
+  tags: ['PHOTOSHOP', 'TRÁFEGO PAGO', 'FIGMA'],
+  demo: 'https://www.instagram.com/locadorahorizonte/',
+  github: 'https://www.instagram.com/locadorahorizonte/'
 },
 {
   projectName: 'Checkout de ecommerce',
