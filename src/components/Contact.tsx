@@ -103,7 +103,7 @@ const Contact = () => {
                 htmlFor="name"
                 className="text-sm font-medium leading-none"
               >
-                Name
+                Nome
               </label>
               <input
                 id="name"
@@ -132,7 +132,7 @@ const Contact = () => {
                 htmlFor="message"
                 className="text-sm font-medium leading-none"
               >
-                Message
+                Mensagem
               </label>
               <textarea
                 id="message"
