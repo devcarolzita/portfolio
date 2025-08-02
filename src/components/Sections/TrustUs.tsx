@@ -1,6 +1,3 @@
-import BorderButton from "../BorderButton";
-// import ScrollReveal from "./ScrollReveal/ScrollReveal";
-// import DecryptedText from "./DecryptedText/DecryptedText";
 import ScrollVelocity from "../ScrollVelocity";
 
 const TrustUs = () => {

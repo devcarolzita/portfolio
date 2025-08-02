@@ -1,12 +1,7 @@
-import BorderButton from "../BorderButton";
-// import ScrollReveal from "./ScrollReveal/ScrollReveal";
-// import DecryptedText from "./DecryptedText/DecryptedText";
-import BlurText from "../BlurText";
-import ScrollVelocity from "../ScrollVelocity";
-import SpotlightCard from "../SpotlightCard";
-import { FaMoneyBillAlt } from "react-icons/fa";
 
-import Title from "../Title";
+import BlurText from "../BlurText";
+import SpotlightCard from "../SpotlightCard";
+
 const OurServices = () => {
   const handleAnimationComplete = () => {
     console.log("Animation completed!");

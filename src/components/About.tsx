@@ -1,9 +1,6 @@
 import BorderButton from "./BorderButton";
-// import ScrollReveal from "./ScrollReveal/ScrollReveal";
-// import DecryptedText from "./DecryptedText/DecryptedText";
 import Me from "../assets/image.png";
 import Title from "./Title";
-import ScrollVelocity from "./ScrollVelocity";
 const About = () => {
   return (
     <section id="about" className="w-full mb-20">
