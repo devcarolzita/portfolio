@@ -5,6 +5,7 @@ import MetaBalls from "../components/MetaBalls/MetaBalls";
 import About from "../components/About";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact";
+import WhatsButton from "../components/features/ButtonWhatsapp";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         />
         <Projects />
         <Contact />
+        <WhatsButton />
       </main>
     </>
   );
