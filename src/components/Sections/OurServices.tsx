@@ -15,14 +15,17 @@ const OurServices = () => {
             <BorderButton text="Sobre nós" />
           </div> */}
           {/* <Title title="Não existe “Ctrl+C + Ctrl+V” " subTitle="por aqui" /> */}
-          <BlurText
+          <div className="flex items-center w-full">
+<BlurText
             text="🎯 Você escolhe o destino. A gente traça o caminho certo."
             delay={150}
             animateBy="words"
             direction="top"
             onAnimationComplete={handleAnimationComplete}
-            className="text-4xl mb-8"
+            className="text-4xl mb-8 max-w-md text-center"
           />
+          </div>
+          
           <div id="grid-services" className="flex flex-wrap gap-2 justify-center ">
             <SpotlightCard
               className="custom-spotlight-card max-w-md h-auto"
