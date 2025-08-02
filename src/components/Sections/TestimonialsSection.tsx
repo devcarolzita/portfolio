@@ -2,7 +2,7 @@ import TestimonialCard from "./TestimonialCard";
 
 export default function TestimonialsSection() {
   return (
-    <section className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 py-12 px-4">
+    <section className=" from-pink-500 via-purple-500 to-indigo-500 py-12 px-4">
       <h2 className="text-center text-white text-3xl font-bold mb-10">
         💬 O que nossos clientes dizem sobre
 

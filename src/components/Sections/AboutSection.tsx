@@ -1,4 +1,3 @@
-import React from "react";
 import ProfileCard from '../ProfileCard/ProfileCard';
 import PerfilImg from '../../assets/perfil.png';
 import ButtonCall from "../ButtonCall";
@@ -22,7 +21,7 @@ export default function AboutSection() {
   status="Online"
   contactText="Entre em contato"
   avatarUrl={PerfilImg}
-  showUserInfo={true}
+  showUserInfo={false}
   enableTilt={true}
   enableMobileTilt={false}
   onContactClick={() => console.log('Contact clicked')}
