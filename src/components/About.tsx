@@ -3,6 +3,7 @@ import BorderButton from "./BorderButton";
 // import DecryptedText from "./DecryptedText/DecryptedText";
 import Me from "../assets/image.png";
 import Title from "./Title";
+import ScrollVelocity from "./ScrollVelocity";
 const About = () => {
   return (
     <section id="about" className="w-full mb-20">
@@ -18,9 +19,18 @@ const About = () => {
           <div className="max-w-30">
             <BorderButton text="Sobre nós" />
           </div>
-          <Title title="Apaixonados por resolver"  subTitle="problemas"/>
+          <Title title="Não existe “Ctrl+C + Ctrl+V” " subTitle="por aqui" />
           <p className="text-zinc-400 leading-relaxed">
-          Na Kroltec, unimos tecnologia, design e dados para construir presenças digitais fortes. Seja gerenciando redes sociais, criando campanhas de tráfego pago ou oferecendo uma gestão 360º do digital, nosso foco é gerar impacto prático e positivo para negócios que querem crescer de verdade.          </p>
+            Trabalhar com a gente é diferente. Antes de qualquer ação, a gente
+            ouve, investiga, analisa e mergulha no seu negócio. Só depois disso
+            criamos uma estratégia pensada exclusivamente para você, baseada em
+            dados, comportamento do seu público e objetivos reais.
+          </p>
+          <div>
+            Estratégias baseadas em diagnóstico individual Comunicação adaptada
+            ao seu nicho e tom de voz Ajustes constantes com base em performance
+            real Sem fórmulas prontas, sem promessas vazias
+          </div>
         </div>
       </div>
     </section>

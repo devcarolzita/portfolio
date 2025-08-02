@@ -1,5 +1,6 @@
 import BorderButton from './BorderButton';
 import Particles from './Particles/Particles';
+import ScrollVelocity from './ScrollVelocity';
 
 const Hero = () => {
   return (
@@ -32,7 +33,7 @@ const Hero = () => {
   />
  
 </div>
- 
+
     </section>
   )
 }

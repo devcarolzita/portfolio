@@ -6,6 +6,12 @@ import About from "../components/About";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact";
 import WhatsButton from "../components/features/ButtonWhatsapp";
+import OurServices from "../components/Sections/OurServices";
+import TrustUs from "../components/Sections/TrustUs";
+import FeaturesSection from "../components/Sections/FeaturesSection";
+import TestimonialCard from "../components/Sections/TestimonialCard";
+import TestimonialsSection from "../components/Sections/TestimonialsSection";
+import AboutSection from "../components/Sections/AboutSection";
 
 const Home = () => {
   return (
@@ -13,7 +19,12 @@ const Home = () => {
       <NavBar />
       <main className="flex flex-col p-10 lg:p-20 items-center">
         <Hero />
+        {/* <TrustUs /> */}
         <About />
+        <OurServices />
+        <FeaturesSection />
+        <TestimonialsSection />
+        <AboutSection />
         <MetaBalls
           color="#560ae1"
           cursorBallColor="#560ae1"

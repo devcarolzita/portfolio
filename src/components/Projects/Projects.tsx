@@ -13,7 +13,7 @@ const Projects = () => {
       <p className='text-zinc-400 leading-relaxed"'>Confira alguns dos nossos projetos e colaborações recentes.
       </p>
       <div className='flex gap-10 flex-wrap'>
-        {data.map(({projectName, description, tags, imgSource, demo, github}) => <Project projectName={projectName} description={description}  tags={tags} imgSource={imgSource} demo={demo} github={github} />)}
+        {data.map(({projectName, description, tags, imgSource, demo, github}) => <Project projectName={projectName} description={description}  tags={tags} imgSource={imgSource} demo={demo} github={github} key={projectName}/>)}
       {/* <Project />
       <Project />
       <Project />
