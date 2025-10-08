@@ -109,6 +109,7 @@ const Contact = () => {
                 id="name"
                 className="flex h-10 w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-primary"
                 placeholder="Seu nome"
+                name="name"
                 required
               />
             </div>
@@ -124,6 +125,7 @@ const Contact = () => {
                 type="email"
                 className="flex h-10 w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-primary"
                 placeholder="Seu email"
+                name="email"
                 required
               />
             </div>
@@ -138,6 +140,7 @@ const Contact = () => {
                 id="message"
                 className="flex min-h-[120px] w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-primary"
                 placeholder="Diga!"
+                 name="message"
                 required
               />
             </div>
