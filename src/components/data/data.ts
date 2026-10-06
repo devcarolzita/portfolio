@@ -1,11 +1,19 @@
 export const data = [
   {
+    projectName: 'Site institucional para consultoria',
+    imgSource: './projects/tallenty.png',
+    description: 'Um site institucional focado em atrair candidatos e clientes para a consultoria de RH da Tallenty',
+    tags: ['REACT', 'FIGMA', 'CSS'],
+     demo: 'http://tallentyservicos.com.br/',
+    github: 'http://tallentyservicos.com.br/'
+  },
+  {
     projectName: 'Landing page para consultoria',
     imgSource: './projects/criatipica.png',
     description: 'Desenvolvemos todo e design e o site da Criatípica com foco em transmitir a essência da marca e gerar conexão com o público desde o primeiro clique',
-    tags: ['WORDPRESS', 'FIGMA', 'CSS'],
+    tags: ['REACT', 'FIGMA', 'CSS'],
     demo: 'http://criatipica.com.br/',
-    github: 'http://criatipica.com.br/'
+    github: 'http://criatipica.com.br/',
   },
   {
   projectName: 'Social Media para consultoria',

@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 
 export default function WhatsButton() {
-  const whatsUrl = `https://wa.me/551151997967?text=Quero%20saber%20mais%20da%kroltec`;
+  const whatsUrl = `https://wa.me/551151997967?text=Quero%20saber%20mais%20da%empresa`;
 
   return (
     <a

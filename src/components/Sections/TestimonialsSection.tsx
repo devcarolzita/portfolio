@@ -13,7 +13,7 @@ export default function TestimonialsSection() {
         <TestimonialCard
           name="Pedro Avelar"
           role="CEO @criatipica"
-          message="Trabalhar com a KrolTec na Criatípica tem sido transformador! Em apenas 2 meses, já colhemos frutos incríveis – desde a evolução do site até a potência das redes sociais. Cada entrega vai além do esperado: profissionalismo afiado, criatividade estratégica e um compromisso que enxerga nosso propósito."
+          message="Trabalhar com a Askas Digital na Criatípica tem sido transformador! Em apenas 2 meses, já colhemos frutos incríveis – desde a evolução do site até a potência das redes sociais. Cada entrega vai além do esperado: profissionalismo afiado, criatividade estratégica e um compromisso que enxerga nosso propósito."
           avatar="https://media.licdn.com/dms/image/v2/D4D03AQFXP4ssdeLIsw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1716234979079?e=1756944000&v=beta&t=8nCicf7MULQpfubbIUVdM6sWsJ1gmLxM9NnwdG2nmHk"
         />
         <TestimonialCard

@@ -17,7 +17,7 @@ export default function AboutSection() {
           <ProfileCard
   name="Caról Sìlva"
   title="Estrategista Digital"
-  handle="kroltec"
+  handle="Askas Digital"
   status="Online"
   contactText="Entre em contato"
   avatarUrl={PerfilImg}

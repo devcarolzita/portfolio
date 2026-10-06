@@ -19,13 +19,13 @@ const Contact = () => {
         <BorderButton text="Contato" />
         <Title title="Vamos trabalhar" subTitle="em conjunto!" />
         <p>
-        E se você busca resultados reais no digital, podemos te ajudar através da Kroltec — nossa agência especializada em tráfego pago, social media e criação de sites.
+        E se você busca resultados reais no digital, podemos te ajudar através da Askas Digital  nossa agência especializada em tráfego pago, social media e criação de sites.
         Cuidamos da presença online da sua marca de forma completa, estratégica e com foco em conversão.
         Se quiser bater um papo ou tiver alguma dúvida, é só nos chamar!
         </p>
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <a href="mailto:kroltec@gmail.com">
+            <a href="mailto:askasdigital@gmail.com">
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Contact = () => {
               </svg>
             </div>
             </a>
-            <a href="mailto:kroltec@gmail.com"> <span>kroltec@gmail.com</span></a>
+            <a href="mailto:askasdigital@gmail.com"> <span>askasdigital@gmail.com</span></a>
            
           </div>
           <div className="flex items-center gap-3">
